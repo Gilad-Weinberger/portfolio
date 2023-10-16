@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="footer">
       <h4 className="rights">Copyright © 2023. All rights are reserved</h4>
       <div className="social">
-        <a href=""><img src={github} alt="" className="github" /></a>
-        <a href=""><img src={linkedin} alt="" className="linkedin" /></a>
+        <a href="https://www.linkedin.com/in/gilad-weinberger/"><img src={linkedin} alt="" className="linkedin" /></a>
+        <a href="https://github.com/Gilad-Weinberger"><img src={github} alt="" className="github" /></a>
       </div>
     </div>
   );

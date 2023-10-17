@@ -10,7 +10,7 @@ import sass from "../images/sass.png";
 import python from "../images/python.png";
 
 const Me = () => {
-  const languages = [python, django, html, css, sass, javascript];
+  const languages = [python, django, html, css, sass, javascript, react];
 
   return (
     <div className="me-lang">

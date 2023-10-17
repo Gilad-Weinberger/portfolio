@@ -12,10 +12,10 @@ const About = () => {
       <div className="text">
         <p className="title">ABOUT ME</p>
         <p className="semi-title">
-          A dedicated Front-end Developer based in Katzrin, Israel 📍
+          A dedicated Full-Stack Web Developer based in Katzrin, Israel 📍
         </p>
         <p className="description">
-        As a aspiring Junior Full-Stack Developer, I've cultivated a diverse skill set that includes HTML, CSS, Python, Django, React, SCSS, and JavaScript. My passion revolves around designing and maintaining responsive websites, ensuring a seamless user experience. My expertise extends to crafting vibrant, interactive interfaces through the art of writing clean and optimized code.
+        As a aspiring Junior Full-Stack Web Developer, I've cultivated a diverse skill set that includes HTML, CSS, Python, Django, React, SCSS, and JavaScript. My passion revolves around designing and maintaining responsive websites, ensuring a seamless user experience. My expertise extends to crafting vibrant, interactive interfaces through the art of writing clean and optimized code.
         </p>
       </div>
     </a>

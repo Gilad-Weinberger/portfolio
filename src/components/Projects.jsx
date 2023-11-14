@@ -52,15 +52,6 @@ const Projects = () => {
         "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
       languages: ["Django", "SCSS"],
     },
-    {
-      website_image: groovy_movie,
-      website_link: "https://clothy.onrender.com/",
-      github_link: "https://github.com/Gilad-Weinberger/clothy.git",
-      name: "CAR RENTAL 🚗",
-      description:
-        "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-      languages: ["React", "SCSS"],
-    },
   ];
 
   return (
@@ -88,10 +79,10 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="links">
-                  <a href="" className="code">
+                  <a href={project.github_link} target="_blank" className="code">
                     <i className="fa-brands fa-github"></i> Code
                   </a>
-                  <a href="" className="live-demo">
+                  <a href={project.website_link} target="_blank" className="live-demo">
                     <i className="fa-solid fa-arrow-up-right-from-square link-icon"></i>{" "}
                     Live Demo
                   </a>
@@ -113,10 +104,10 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="links">
-                  <a href="" className="code">
+                  <a href={project.github_link} target="_blank" className="code">
                     <i className="fa-brands fa-github"></i> Code
                   </a>
-                  <a href="" className="live-demo">
+                  <a href={project.website_link} target="_blank" className="live-demo">
                     <i className="fa-solid fa-arrow-up-right-from-square link-icon"></i>{" "}
                     Live Demo
                   </a>

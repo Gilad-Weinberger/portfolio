@@ -22,8 +22,8 @@ const Me = () => {
             based in Katzrin, Israel. 📍
           </p>
           <div className="images">
-            <a href="https://www.linkedin.com/in/gilad-weinberger/" target="blank"><img src={linkedin} alt="" /></a>
-            <a href="https://github.com/Gilad-Weinberger" target="blank"><img src={github} alt="" /></a>
+            <a href="https://www.linkedin.com/in/gilad-weinberger/" target="_blank"><img src={linkedin} alt="" /></a>
+            <a href="https://github.com/Gilad-Weinberger" target="_blank"><img src={github} alt="" /></a>
           </div>
         </div>
         <div className="image-box">

@@ -10,14 +10,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const App = () => {
   return (
     <Router basename="/portfolio">
-      <Route path="/">
-        <Navbar />
-        <Me />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </Route>
+      <Switch>
+        <Route path="/">
+          <Navbar />
+          <Me />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+        </Route>
+      </Switch>
     </Router>
   );
 };

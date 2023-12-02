@@ -25,7 +25,7 @@ const Projects = () => {
 
   const projects = [
     {
-      website_image: "../images/groovy_movie.png",
+      website_image: study_buddy,
       website_link: "https://clothy.onrender.com/",
       github_link: "https://github.com/Gilad-Weinberger/clothy.git",
       name: "Groovy Movie 🍿",

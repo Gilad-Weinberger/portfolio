@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import groovy_movie from ".../dist/assets/groovGroovy_Movie-0ddb60f6.png";
+import groovy_movie from "../images/groovy_movie.png";
 import study_buddy from "../images/study_buddy.png";
 import clothy from "../images/clothy.png";
 import $ from "jquery";

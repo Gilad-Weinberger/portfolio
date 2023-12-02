@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import groovy_movie from "../images/groovy_movie.png";
 import study_buddy from "../images/study_buddy.png";
 import clothy from "../images/clothy.png";
 import $ from "jquery";
@@ -26,7 +25,7 @@ const Projects = () => {
 
   const projects = [
     {
-      website_image: groovy_movie,
+      website_image: "../images/groovy_movie.png",
       website_link: "https://clothy.onrender.com/",
       github_link: "https://github.com/Gilad-Weinberger/clothy.git",
       name: "Groovy Movie 🍿",

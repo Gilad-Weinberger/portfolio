@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import study_buddy from "../images/study_buddy.png";
-import clothy from "../images/clothy.png";
 import $ from "jquery";
 
 const Projects = () => {
@@ -25,7 +23,7 @@ const Projects = () => {
 
   const projects = [
     {
-      website_image: study_buddy,
+      website_image: null,
       website_link: "https://clothy.onrender.com/",
       github_link: "https://github.com/Gilad-Weinberger/clothy.git",
       name: "Groovy Movie 🍿",
@@ -34,7 +32,7 @@ const Projects = () => {
       languages: ["Django", "SCSS"],
     },
     {
-      website_image: study_buddy,
+      website_image: null,
       website_link: "https://clothy.onrender.com/",
       github_link: "https://github.com/Gilad-Weinberger/Study-Buddy.git",
       name: "Study Buddy 💻",
@@ -43,7 +41,7 @@ const Projects = () => {
       languages: ["Django", "SCSS"],
     },
     {
-      website_image: clothy,
+      website_image: null,
       website_link: "https://clothy.onrender.com/",
       github_link: "https://github.com/Gilad-Weinberger/clothy.git",
       name: "Clothy 👖",

@@ -1,4 +1,3 @@
-import profile from "../images/profile.png";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
 import html from "../images/html.png";
@@ -10,7 +9,7 @@ import sass from "../images/sass.png";
 import python from "../images/python.png";
 
 const Me = () => {
-  const languages = [python, django, html, css, sass, javascript, react];
+  const languages = [python, django, html, sass, javascript, react];
 
   return (
     <div className="me-lang">
@@ -22,20 +21,30 @@ const Me = () => {
             based in Katzrin, Israel. 📍
           </p>
           <div className="images">
-            <a href="https://www.linkedin.com/in/gilad-weinberger/" target="_blank"><img src={linkedin} alt="" /></a>
-            <a href="https://github.com/Gilad-Weinberger" target="_blank"><img src={github} alt="" /></a>
+            <a
+              href="https://www.linkedin.com/in/gilad-weinberger/"
+              target="_blank"
+            >
+              <img src={linkedin} alt="" />
+            </a>
+            <a href="https://github.com/Gilad-Weinberger" target="_blank">
+              <img src={github} alt="" />
+            </a>
           </div>
         </div>
-        <div className="image-box">
-        </div>
+        <div className="image-box"></div>
       </div>
       <div className="languages">
-        <p>Tech Stack <span>|</span></p>
-        {languages.map((lang) => (
-          <div className="lang-box" key={languages.indexOf(lang)+1}>
-            <img src={lang} alt=""/>
-          </div>
-        ))}
+        <p>
+          Tech Stack <span>|</span>
+        </p>
+        <div className="lang-row">
+          {languages.map((lang) => (
+            <div className="lang-box" key={languages.indexOf(lang) + 1}>
+              <img src={lang} alt="" />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

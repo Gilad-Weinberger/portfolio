@@ -15,7 +15,7 @@ const Projects = () => {
           .find("img")
           .css({
             transform: `translateY(-${translateY}px)`,
-            transition: "transform 1.5s ease", // Slower transition
+            transition: "transform 1.5s ease",
           });
       },
       function () {

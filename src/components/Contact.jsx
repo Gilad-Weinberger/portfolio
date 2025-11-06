@@ -20,7 +20,11 @@ const Contact = () => {
               </div>
               <div className="text">
                 <p className="type">{detail.type}</p>
-                <p className="address">{detail.address}</p>
+                {detail.type === "Mail" ? (
+                  <a href={`mailto:${detail.address}`} className="address">{detail.address}</a>
+                ) : (
+                  <p className="address">{detail.address}</p>
+                )}
               </div>
             </div>
           );

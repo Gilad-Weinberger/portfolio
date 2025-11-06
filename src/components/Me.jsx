@@ -1,15 +1,23 @@
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
-import html from "../images/html.png";
-import css from "../images/css.png";
+import typescript from "../images/typescript.png";
+import nextjs from "../images/nextjs.png";
+import react from "../images/react.png";
+import expo from "../images/expo.png";
+import python from "../images/python.png";
 import javascript from "../images/javascript.png";
 import django from "../images/django.png";
-import react from "../images/react.png";
-import sass from "../images/sass.png";
-import python from "../images/python.png";
 
 const Me = () => {
-  const languages = [python, django, html, sass, javascript, react];
+  const languages = [
+    typescript,
+    javascript,
+    nextjs,
+    react,
+    expo,
+    python,
+    django,
+  ];
 
   return (
     <div className="me-lang">
@@ -17,17 +25,22 @@ const Me = () => {
         <div className="left">
           <h1 className="title">Full-Stack React Developer 👋</h1>
           <p className="description">
-            Hi, I'm Gilad Weinberger. A passionate Full-Stack Web Developer
+            Hi, I&apos;m Gilad Weinberger. A passionate Full-Stack Web Developer
             based in Katzrin, Israel. 📍
           </p>
           <div className="images">
             <a
               href="https://www.linkedin.com/in/gilad-weinberger/"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={linkedin} alt="" />
             </a>
-            <a href="https://github.com/Gilad-Weinberger" target="_blank">
+            <a
+              href="https://github.com/Gilad-Weinberger"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={github} alt="" />
             </a>
           </div>

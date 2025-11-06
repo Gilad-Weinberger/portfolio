@@ -15,7 +15,14 @@ const About = () => {
           A dedicated Full-Stack Developer based in Katzrin, Israel 📍
         </p>
         <p className="description">
-        As a aspiring Junior Full-Stack Web Developer, I've cultivated a diverse skill set that includes HTML, CSS, Python, Django, React, SCSS, and JavaScript. My passion revolves around designing and maintaining responsive websites, ensuring a seamless user experience. My expertise extends to crafting vibrant, interactive interfaces through the art of writing clean and optimized code.
+          As a passionate Full-Stack Developer, I specialize in building modern
+          web and mobile applications using TypeScript, React, Next.js, and
+          React Native with Expo. My expertise includes creating responsive web
+          applications with Next.js and Tailwind CSS, developing cross-platform
+          mobile apps with React Native, and integrating backend services like
+          Firebase and Supabase. I focus on crafting clean, optimized code and
+          delivering seamless user experiences across both web and mobile
+          platforms.
         </p>
       </div>
     </a>

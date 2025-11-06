@@ -3,7 +3,7 @@ import mail from "../images/mail.png";
 
 const Contact = () => {
   const contactInfo = [
-    { icon: location, type: "Location", address: "Qatzrin, Israel" },
+    { icon: location, type: "Location", address: "Katzrin, Israel" },
     { icon: mail, type: "Mail", address: "giladwe21@gmail.com" },
   ];
 

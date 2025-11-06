@@ -3,6 +3,14 @@
 $dark-bg: #f9f9f9;
 $shadow-color: rgba(219, 212, 212, 0.1);
 
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 80px; // Account for fixed navbar height
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }

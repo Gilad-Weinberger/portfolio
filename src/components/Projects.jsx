@@ -53,7 +53,7 @@ const Projects = () => {
   const projects = [
     {
       website_image: lockinVideo,
-      website_link: "https://lockin.app", // Update with actual URL if available
+      website_link: "https://lockintasks.com", // Update with actual URL if available
       github_link: "https://github.com/Gilad-Weinberger/lockin.git", // Update with actual repo if available
       name: "LockIn 🚀",
       description:

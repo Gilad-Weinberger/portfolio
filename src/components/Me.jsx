@@ -23,7 +23,7 @@ const Me = () => {
     <div id="home" className="me-lang">
       <div className="me">
         <div className="left">
-          <h1 className="title">Full-Stack React Developer 👋</h1>
+          <h1 className="title">Full-Stack Web Developer 👋</h1>
           <p className="description">
             Hi, I&apos;m Gilad Weinberger. A passionate Full-Stack Web Developer
             based in Katzrin, Israel. 📍

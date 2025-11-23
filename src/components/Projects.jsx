@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import lockinVideo from "../images/lockin-video.mp4"; // Video for LockIn project
 // import charitit from "../images/Study_Buddy.png"; // Placeholder - replace with CharitIt screenshot
-import calos from "../images/clothy.png"; // Placeholder - replace with Calos screenshot
+// import calos from "../images/clothy.png"; // Placeholder - replaced with text placeholder
 import typescript from "../images/typescript.png";
 import nextjs from "../images/nextjs.png";
 import react from "../images/react.png";
@@ -71,13 +71,14 @@ const Projects = () => {
     //   languages: ["React Native", "Expo", "TypeScript", "Supabase"],
     // },
     {
-      website_image: calos,
+      website_image: null,
       website_link: "#", // Mobile app - no web link
       github_link: "https://github.com/Gilad-Weinberger/Calos.git", // Update with actual repo if available
       name: "Calos 💪",
       description:
         "A full-featured fitness tracking mobile application for workout enthusiasts. Track exercises, log sets and reps, create custom workout plans, monitor progress over time, and share achievements. Includes AI-powered workout analysis and social features for motivation.",
       languages: ["TypeScript", "Expo", "React Native", "Supabase"],
+      isPlaceholder: true, // Flag to show text placeholder instead of image
     },
   ];
 
@@ -106,6 +107,80 @@ const Projects = () => {
                       objectFit: "cover",
                     }}
                   />
+                ) : project.isPlaceholder ? (
+                  <div
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      minHeight: "100%",
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      background:
+                        "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                      border: "3px solid #5568d3",
+                      borderRadius: "12px",
+                      padding: "40px",
+                      boxSizing: "border-box",
+                      boxShadow: "0 8px 32px rgba(102, 126, 234, 0.3)",
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: 0,
+                      overflow: "hidden",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: "-50%",
+                        right: "-50%",
+                        width: "200%",
+                        height: "200%",
+                        background:
+                          "radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%)",
+                        pointerEvents: "none",
+                      }}
+                    />
+                    <div
+                      style={{
+                        fontSize: "3rem",
+                        marginBottom: "20px",
+                      }}
+                    >
+                      🚀
+                    </div>
+                    <p
+                      style={{
+                        fontSize: "1.8rem",
+                        color: "#ffffff",
+                        textAlign: "center",
+                        margin: 0,
+                        fontWeight: "700",
+                        textShadow: "0 2px 10px rgba(0,0,0,0.2)",
+                        lineHeight: "1.4",
+                        position: "relative",
+                        zIndex: 1,
+                      }}
+                    >
+                      The mobile app&apos;s website is coming soon...
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        color: "rgba(255,255,255,0.9)",
+                        textAlign: "center",
+                        marginTop: "15px",
+                        fontWeight: "400",
+                        position: "relative",
+                        zIndex: 1,
+                      }}
+                    >
+                      Stay tuned for something amazing! ✨
+                    </p>
+                  </div>
                 ) : (
                   <img src={project.website_image} alt="" />
                 )}
@@ -205,6 +280,80 @@ const Projects = () => {
                       objectFit: "cover",
                     }}
                   />
+                ) : project.isPlaceholder ? (
+                  <div
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      minHeight: "100%",
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      background:
+                        "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                      border: "3px solid #5568d3",
+                      borderRadius: "12px",
+                      padding: "40px",
+                      boxSizing: "border-box",
+                      boxShadow: "0 8px 32px rgba(102, 126, 234, 0.3)",
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: 0,
+                      overflow: "hidden",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: "-50%",
+                        right: "-50%",
+                        width: "200%",
+                        height: "200%",
+                        background:
+                          "radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%)",
+                        pointerEvents: "none",
+                      }}
+                    />
+                    <div
+                      style={{
+                        fontSize: "3rem",
+                        marginBottom: "20px",
+                      }}
+                    >
+                      🚀
+                    </div>
+                    <p
+                      style={{
+                        fontSize: "1.8rem",
+                        color: "#ffffff",
+                        textAlign: "center",
+                        margin: 0,
+                        fontWeight: "700",
+                        textShadow: "0 2px 10px rgba(0,0,0,0.2)",
+                        lineHeight: "1.4",
+                        position: "relative",
+                        zIndex: 1,
+                      }}
+                    >
+                      The mobile app&apos;s website is coming soon...
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "1rem",
+                        color: "rgba(255,255,255,0.9)",
+                        textAlign: "center",
+                        marginTop: "15px",
+                        fontWeight: "400",
+                        position: "relative",
+                        zIndex: 1,
+                      }}
+                    >
+                      Stay tuned for something amazing! ✨
+                    </p>
+                  </div>
                 ) : (
                   <img src={project.website_image} alt="" />
                 )}
